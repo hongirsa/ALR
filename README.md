@@ -4,13 +4,14 @@ Details on ALR using SL2P algorithm: https://www.sciencedirect.com/science/artic
 LEAF-Toolbox: https://github.com/rfernand387/LEAF-Toolbox
 Jupyter lab notebook with Python3 source code for LEAF-Toolbox using Google Earth Engine Python API.
 
-## files:
-3_regression_approaches_kate_finalversion_updated.ipynb: updated version of https://github.com/hongirsa/Sentinel2_ALR/blob/main/code/3_regression_approaches.ipynb
+## Files:
+3_regression_approaches_kate_finalversion_updated.ipynb:  updated version of https://github.com/hongirsa/Sentinel2_ALR/blob/main/code/3_regression_approaches.ipynb
 
-eeALR.js: the exact above version implemented in Google Earth Engine, the plot components have been removed. 
+eeALR.js:  the exact above version implemented in Google Earth Engine, the plot components have been removed. 
 
 ## Environment configuration:
 You will need an Anaconda environment configured as:
+
 Anaconda
 
 conda create --name leaftoolbox
