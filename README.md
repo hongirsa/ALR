@@ -34,6 +34,7 @@ conda install -c conda-forge scipy -y
 conda install -c conda-forge tensorflow -y
 
 Then as follows to run the script in terminal window:
+
 conda activate leaftoolbox
 
 jupyter lab
