@@ -12,17 +12,28 @@ eeALR.js: the exact above version implemented in Google Earth Engine, the plot c
 ## Environment configuration:
 You will need an Anaconda environment configured as:
 Anaconda
+
 conda create --name leaftoolbox
+
 conda activate leaftoolbox
+
 conda install -c conda-forge jupyterlab -y
+
 conda install -c conda-forge earthengine-api -y
+
 conda install -c conda-forge folium -y
+
 conda install -c conda-forge matplotlib -y
+
 conda install -c conda-forge pandas -y
+
 conda install -c conda-forge scikit-learn -y
+
 conda install -c conda-forge scipy -y
+
 conda install -c conda-forge tensorflow -y
 
 Then as follows to run the script in terminal window:
 conda activate leaftoolbox
+
 jupyter lab
