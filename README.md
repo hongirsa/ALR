@@ -7,10 +7,12 @@ Jupyter lab notebook with Python3 source code for LEAF-Toolbox using Google Eart
 ## Files:
 3_regression_approaches_kate_finalversion_updated.ipynb:  updated version of https://github.com/hongirsa/Sentinel2_ALR/blob/main/code/3_regression_approaches.ipynb
 
+module: the directory for all files used in the above code, which should be in the same directory for running the code above
+
 eeALR.js:  the exact above version implemented in Google Earth Engine, the plot components have been removed. 
 
 ## Environment configuration:
-You will need an Anaconda environment configured as:
+### You will need an Anaconda environment configured as:
 
 Anaconda
 
@@ -34,7 +36,7 @@ conda install -c conda-forge scipy -y
 
 conda install -c conda-forge tensorflow -y
 
-Then as follows to run the script in terminal window:
+### Then as follows to run the script in terminal window:
 
 conda activate leaftoolbox
 
