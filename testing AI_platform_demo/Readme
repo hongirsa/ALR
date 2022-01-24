@@ -13,3 +13,11 @@ A series of testing to decrease above
 parametersPlus testing to add 
 local VM GPUs	                          The same as above		                                        Always failed in this step 	
 
+
+
+|TRAIN_SIZE|EVAL_SIZE|BATCH_SIZE|EPOCHS|Computer|Submit the package to AI Platform|set Cloud project and then run the eeifier|	Time|
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|16000|8000|16|50|scale-tier basic-gpu|Failed| |10 minutes|
+|16000|8000|16|50|n1-highcpu-32|Failed| |40 minutes|
+|16000|8000|16|50|--master-machine-type n1-highmem-32--master-accelerator count=2,type=NVIDIA-TESLA-P4|passed|failed|11 hours 38minutes|
+A series of testing to decrease above parameters Plus testing to add local VM GPU|	The same as above|		Always failed in this step 	
